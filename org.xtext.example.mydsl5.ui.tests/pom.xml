@@ -9,6 +9,10 @@
 	<artifactId>org.xtext.example.mydsl5.ui.tests</artifactId>
 	<packaging>eclipse-test-plugin</packaging>
 
+	<properties>
+		<tycho.testArgLine>--add-modules=ALL-SYSTEM</tycho.testArgLine>
+	</properties>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -55,7 +59,7 @@
 				</os>
 			</activation>
 			<properties>
-				<tycho.testArgLine>-XstartOnFirstThread</tycho.testArgLine>
+				<tycho.testArgLine>-XstartOnFirstThread --add-modules=ALL-SYSTEM</tycho.testArgLine>
 			</properties>
 		</profile>
 	</profiles>
