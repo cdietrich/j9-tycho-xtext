@@ -240,6 +240,11 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+		<pluginRepository>
+			<id>xtext</id>
+			<name>xtext</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</pluginRepository>
 	</pluginRepositories>
 
 	<dependencies>
